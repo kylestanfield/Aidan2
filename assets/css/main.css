@@ -3575,13 +3575,14 @@ input, select, textarea {
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
-		justify-content: center;
+		justify-content: flex-start;
 		cursor: default;
 		height: 100vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		padding-top: 5em;
 	}
 
 		#banner h2 {
